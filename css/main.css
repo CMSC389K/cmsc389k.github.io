@@ -52,24 +52,6 @@
      padding: 5em 0em;
  }
  
- #pages:target {
-     -webkit-animation-name: fade;
-     -webkit-animation-duration: 900ms;
- }
-
-  #about:target {
-     -webkit-animation-name: fade;
-     -webkit-animation-duration: 900ms;
- }
- 
- @keyframes fade {
-     0%, 100 {
-         background-color: rgba(189, 195, 199, 0);
-     }
-     50% {
-         background-color: rgba(189, 195, 199, 0.5);
-     }
-     // 100% {
-     //     background-color: rgba(189, 195, 199, 0.3);
-     // }
- }
+td {
+     vertical-align: top !important;
+}
