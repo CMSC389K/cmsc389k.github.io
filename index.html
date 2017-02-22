@@ -42,9 +42,9 @@
                     <td>
                         <p>Here's one last fix to help you resolve the CORs issue with Project 3:</p>
                         <p>Change:</p>
-                        <p><code><xmp><script src="https:.../jquery/1.7.2/jquery.min.js"></script></xmp></code></p>
+                        <p><code>&lt;script src="https:.../jquery/1.7.2/jquery.min.js">&lt;/script></code></p>
                         <p>to</p>
-                        <p><code><xmp><script src="https:.../jquery/3.1.1/jquery.min.js"></script></xmp></code></p>
+                        <p><code>&lt;script src="https:.../jquery/3.1.1/jquery.min.js">&lt;/script></code></p>
                         <p>Notice the version number changed from "1.7.2" to "3.1.1".</p>
                         <p>You need the latest version of jQuery since version 1.7.2 does not support the "jsonp" property. </p>
                         <p>Then, read the <a href="https://github.com/CMSC389K/spring17/blob/master/lectures/week_3/cors_guide.md">cors_guide</a> file to see how you can use "jsonp" to resolve the CORS issue.</p>
@@ -70,9 +70,9 @@
                         <p>Please fill out the week 3 feedback form <a href="https://goo.gl/forms/B0AsJV2V4QMWhgJ32">here</a>. We really appreciate all your feedback!
                             <p>We did not explicitly mention this in the last post, but as usual, there is a worksheet for lecture. Find it in <a href="https://github.com/CMSC389K/spring17/tree/master/lectures/week_3/WS">/lectures/week_3/WS</a>.</p>
                             <p>There are two errors (so far) in Project 3. First, the line in <code>index.html</code></p>
-                            <p><code><xmp><script src="//ajax.googleapis.com/ajax/..."></script></xmp></code></p>
+                            <p><code>&lt;script src="//ajax.googleapis.com/ajax/...">&lt;/script></code></p>
                             <p>should be</p>
-                            <p><code><xmp><script src="http://ajax.googleapis.com/ajax/..."></script></xmp></code></p>
+                            <p><code>&lt;script src="http://ajax.googleapis.com/ajax/...">&lt;/script></code></p>
                             <p>Notice the added 'http:'.</p>
                             <p>The second thing is that in <code>index.js</code>, the hint should say 'setInterval' instead of 'setTimeout'.</p>
                             <p>Both changes have been made in the repository.</p>
